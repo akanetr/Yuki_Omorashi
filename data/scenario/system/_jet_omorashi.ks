@@ -1,0 +1,6 @@
+[preload  storage="./data/bgimage/black_back.png"  ]
+[preload  storage="./data/bgimage/jetc_omorashi_1.png"  ]
+[preload  storage="./data/bgimage/jetc_omorashi_1_5.png"  ]
+[preload  storage="./data/bgimage/jetc_omorashi_2.png"  ]
+[preload  storage="./data/bgimage/jet.png"  ]
+[return]

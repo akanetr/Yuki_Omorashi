@@ -1,0 +1,7 @@
+[preload  storage="./data/bgimage/merry.png"  ]
+[preload  storage="./data/fgimage/chara/1/yuki_yokome2.png"  ]
+[preload  storage="./data/bgimage/black_back.png"  ]
+[preload  storage="./data/bgimage/merry_omorashi_1.png"  ]
+[preload  storage="./data/bgimage/merry_omorashi_2.png"  ]
+[preload  storage="./data/bgimage/merry_omorashi_3.png"  ]
+[return]

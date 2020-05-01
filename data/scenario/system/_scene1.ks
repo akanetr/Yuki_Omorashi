@@ -1,0 +1,6 @@
+[preload  storage="./data/bgimage/table_chair.png"  ]
+[preload  storage="./data/fgimage/chara/1/yuki_shaberu2.png"  ]
+[preload  storage="./data/bgimage/black_back.png"  ]
+[preload  storage="./data/fgimage/chara/1/yuki_yokome1.png"  ]
+[preload  storage="./data/fgimage/chara/1/yuki_nakiwarai1.png"  ]
+[return]
