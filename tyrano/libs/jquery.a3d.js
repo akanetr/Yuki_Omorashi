@@ -230,13 +230,6 @@
                 obj.css(css_param).one('animationend',function(){
                     
                     if(typeof cb_complete === "function"){
-                        
-                        obj.css("transform", obj.css("transform"));
-                        for (var key in mod_styles) {
-                            obj.css(key, obj.css(key));
-                        }
-                        obj.css("animation-name","");
-                        
                         cb_complete.call(that);
                     }
                     
@@ -292,13 +285,6 @@
                 obj.css(css_param).one(''+vendor+'AnimationEnd animationend',function(){
                     
                     if(typeof cb_complete === "function"){
-                        obj.css("transform",obj.css("transform"));
-                        
-                        for (var key in mod_styles) {
-                            obj.css(key, obj.css(key));
-                        }
-                        
-                        obj.css("-"+vendor+"-animation-name","");
                         cb_complete.call(that);
                     }
                     
@@ -479,8 +465,7 @@
             
         }
         
-        //array_obj["translate3d"] = point["x"]+"px,"+point["y"]+"px,"+point["z"]+"px";
-        array_obj["translate"] = point["x"]+"px,"+point["y"]+"px";
+        array_obj["translate3d"] = point["x"]+"px,"+point["y"]+"px,"+point["z"]+"px";
         
         return array_obj;
         
